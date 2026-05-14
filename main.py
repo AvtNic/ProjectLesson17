@@ -5,5 +5,8 @@ print("Hallo")
 # git checkout new_feature - переключиться
 # git push
 # git checkout -b new_feature - создать и переключиться сразу
-# git merge new_feature - слить ветку в текущую (находимся на какой-то ветке и сливаем все в указаннную ветку new_feature)
+# git merge new_feature - слить ветку в текущую (я перешел в ветку master, git merge new_feature - и все сливаемся из ветки new_feature в ветку master)
 # git branch -d new_feature - удалить ветку
+
+#конфликты  git
+#один и тот же файл на разных ветках исправить = то он не знает что правильно а что нет - при обьединении выдаст конфликт. выбираем в файле то что правильно, остальное удаляем - повторно  git push
